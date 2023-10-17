@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "vivid-frame"
+version = "0.1.0"
+description = "Convert static images to dynamic videos with a vivid twist at the end – an inverted color frame."
+authors = ["benzlokzik <121052717+benzlokzik@users.noreply.github.com>"]
+license = "LICENSE"
+readme = "README.md"
+packages = [{include = "vivid_frame"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+opencv-python = "^4.8.1.78"
+numpy = "^1.25.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
