@@ -24,6 +24,10 @@ def main():
 
     args = parser.parse_args()
 
+    print(
+        f"Converting {args.image_path} to a video with total duration of {args.duration} seconds..."
+    )
     create_video_from_image(
         args.image_path, args.video_path, args.duration, args.inverted_duration
     )
+    print("Conversion completed!")
