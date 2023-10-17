@@ -1,5 +1,4 @@
 import cv2
-import numpy as np
 
 
 def create_video_from_image(image_path, video_path, duration=5, inverted_duration=0.5):
