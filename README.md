@@ -7,12 +7,14 @@ Convert static images to dynamic videos with a vivid twist at the end – an inv
 ### Using Poetry (recommended)
 
 1. Clone the repository:
+
     ```bash
     git clone https://github.com/benzlokzik/vivid-frame.git
     cd vivid-frame
     ```
 
 2. Install the dependencies using [Poetry](https://python-poetry.org/):
+
     ```bash
     poetry install
     ```
@@ -44,4 +46,3 @@ poetry run python -m vivid_frame <path_to_image.jpg> <output_video.avi> --durati
 ## License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
-
